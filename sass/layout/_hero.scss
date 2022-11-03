@@ -1,7 +1,8 @@
 .hero {
     max-width: 1600px;
     background-color: var(--add-bg-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/Img.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(./images/hero/desktop/Img.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -9,6 +10,15 @@
     padding: 200px 0;
     margin: 0 auto;
 }
+
+// @media screen and (min-device-pixel-ratio: 2) ,
+// screen and (min-resolution: 192dpi) ,
+// screen and (min-resolution: 2dppx) {
+//     .hero {
+//         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//         url(/images/hero/desktop/Img@2x.jpg);
+//     }
+// }
 
 .hero__title {
     color: var(--add-color-2);
