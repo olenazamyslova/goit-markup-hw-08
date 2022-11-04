@@ -59,27 +59,3 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero/Img@2x.jpg');
     }
 }
-
-.hero__title {
-    color: var(--add-color-2);
-    width: 695px;
-    font-size: 44px;
-    line-height: 1.36;
-    margin: 0 auto 30px;
-    letter-spacing: 0.06em;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.hero__btn {
-    color: var(--add-color-2);
-    background-color: var(--accent-color);
-    border: none;
-    font-family: 'Roboto';
-    font-size: 16px;
-    line-height: 1.98;
-    letter-spacing: 0.03em;
-    padding: 6px 22px;
-    font-weight: 700;
-    border-radius: 4px;
-}
