@@ -628,7 +628,7 @@ button {
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: var(--main-color);
-    transition: color var(--trnsition-el);
+    transition: color var(--transition-el);
   }
   .mobile-list__link:hover, .mobile-list__link:focus {
     color: var(--accent-color);
