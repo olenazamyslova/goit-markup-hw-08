@@ -213,8 +213,8 @@
         fill: var(--add-color-1);
         transition: fill var(--transition-el);
         
-        .contacts__link:hover&,
-        .contacts__link:focus& {
+        .contacts__link:hover &,
+        .contacts__link:focus & {
             fill: var(--accent-color);
         }
     }
