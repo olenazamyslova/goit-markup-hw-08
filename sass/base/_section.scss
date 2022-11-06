@@ -1,4 +1,4 @@
-@media screen and (min-width: 280px) {
+
     .section {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -13,19 +13,19 @@
     .section--other-bg {
         background-color: var(--add-color-3);
     }
-}
+
 @media screen and (min-width: 768px) {
     .section {
         padding-top: 60px;
         padding-bottom: 60px;
     }
     .section__title {
-        font-size: 36px;
-        line-height: 1.17;
+        font-size: 28px;
+        line-height: 1.18;
         letter-spacing: 0.03em;
         color: var(--main-color);
         font-weight: 700;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         text-align: center;
     }
 }

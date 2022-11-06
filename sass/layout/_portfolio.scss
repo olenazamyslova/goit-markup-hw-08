@@ -1,11 +1,11 @@
-@media screen and (min-width: 280px) {
+
     .buttons {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: flex-start;
         margin-bottom: 40px;
-        gap: 8px;
+        gap: 15px 8px;
     }
     
     .buttons__item:not(:last-child) {
@@ -108,7 +108,7 @@
             transform: translateY(0%);
         }
     }
-}
+
 @media screen and (min-width: 768px) {
     .buttons {
         align-items: center;

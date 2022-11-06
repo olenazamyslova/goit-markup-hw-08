@@ -1,4 +1,6 @@
-@media screen and (min-width: 280px) {
+.page-header {
+        border-bottom: 1px solid var(--header-border);
+    }
     .menu {
         display: none;
     }
@@ -21,7 +23,6 @@
             line-height: 1.17;
             letter-spacing: 0.03em;
             padding: 16px 0;
-            // margin-right: 93px;
             align-items: center;
         }
     .mobile-menu{
@@ -37,12 +38,16 @@
         pointer-events: none;
         transition: opacity var(--transition-el), visibility var(--transition-el);
     }
+    
     .mobile-menu.is-open{
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
     }
     .mobile-menu__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         position: relative;
         padding-top: 48px;
         padding-bottom: 48px;
@@ -78,9 +83,6 @@
         margin-bottom: 36px;
         
     }
-    .mobile-list{
-        margin-bottom: 302px;
-    }
     .mobile-list__link{
         font-weight: 500;
         font-size: 40px;
@@ -104,7 +106,7 @@
         color: var(--accent-color);
     }
     .mobile-contacts__item-email{
-        margin-bottom: 64px;
+        // margin-bottom: 64px;
     }
     .mobile-contacts__link-email{
         font-weight: 500;
@@ -141,11 +143,12 @@
         letter-spacing: 0.02em;
         color: var(--accent-color);
     }
-}
-@media screen and (min-width: 768px) {
-    .page-header {
-        border-bottom: 1px solid var(--header-border);
+    .current {
+        color: var(--accent-color);
     }
+
+@media screen and (min-width: 768px) {
+    
     .page-header__container{
         display: flex;
         align-items: center;
@@ -201,6 +204,9 @@
         display: flex;
         flex-direction: column;
     }
+    .contacts__item:not(:last-child){
+        margin-bottom: 10px;
+    }
     .contacts__link{
         font-weight: 500;
         font-size: 12px;
@@ -226,7 +232,9 @@
         flex-direction: row;
         align-items: center;
     }
-    
+    .contacts__item:not(:last-child) {
+        margin-bottom: 0;
+    }
     header.page-header{
         padding: 0;
     }

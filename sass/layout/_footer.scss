@@ -1,4 +1,4 @@
-@media screen and (min-width: 280px) {
+
     footer {
         background-color: var(--add-bg-color-2);
         padding: 60px 0;
@@ -103,7 +103,7 @@
     .footer_right {
         margin-bottom: 60px;
     }
-}
+
 
 @media screen and (min-width: 768px) {
     footer {
@@ -114,13 +114,15 @@
     .main_footer {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
         flex-wrap: wrap;
         align-items: baseline;
     }
     
     .footer_left {
-        margin-right: 70px;
-        flex-grow: 1;
+        margin-bottom: 0;
+        // margin-right: 70px;
+        // flex-grow: 1;
     }
     
     .f_logo {
@@ -206,7 +208,8 @@
     }
     
     .footer_right {
-        margin-right: 93px;
+        // margin-right: 93px;
+        margin-bottom: 0;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -214,7 +217,6 @@
         background-color: var(--add-bg-color-2);
         padding: 60px 0;
     }
-    .footer_
     
     .main_footer {
         display: flex;
@@ -229,6 +231,7 @@
     .f_logo {
         font-family: 'Raleway',
             sans-serif;
+            text-align: start;
         font-weight: 700;
         color: var(--add-color-2);
         font-size: 26px;
@@ -240,6 +243,7 @@
     
     address {
         font-style: normal;
+        text-align: start;
     }
     
     .address_contacts {
@@ -275,6 +279,8 @@
         text-transform: uppercase;
         color: var(--add-color-2);
         margin-bottom: 20px;
+
+            text-align: start;
     }
     
     .footer_socials {

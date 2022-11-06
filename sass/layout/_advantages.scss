@@ -1,4 +1,4 @@
-@media screen and (min-width: 280px) {
+
     .advantages-list {
     display: block;
     column-gap: 30px;
@@ -28,6 +28,7 @@
     color: var(--main-color);
     font-weight: 700;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .advantages-list__text {
@@ -37,7 +38,7 @@
     color: var(--add-color-1);
     font-weight: 400;
 }
-}
+
 @media screen and (min-width: 768px) {
     .advantages-list {
         display: flex;
@@ -48,7 +49,14 @@
     .advantages-list__item {
         width: 354px;
     }
-
+    .advantages-list__item {
+        &:not(:last-child) {
+            margin-bottom: 0;
+        }
+    }
+.advantages-list__title {
+    text-align: start;
+}
     .advantages-list__box {
         width: 354px;
         height: 120px;

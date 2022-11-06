@@ -1,7 +1,7 @@
-@media screen and (min-width: 280px) {
+
     .modal-form {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; width: auto;
     }
     
     .modal-form-capture {
@@ -156,7 +156,6 @@
         letter-spacing: 0.03em;
         color: var(--accent-color);
     }
-}
 
 @media screen and (min-width: 1200px) {
     

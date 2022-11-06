@@ -1,7 +1,7 @@
-@media screen and (min-width: 280px) {
+
     .backdrop_modal {
         position: absolute;
-        width: 450px;
+        width: calc(100% - 15px);
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -38,8 +38,12 @@
             fill: var(--accent-color);
         }
     }
-}
 
+@media screen and (min-width: 480px) {
+    .backdrop_modal {
+    width: 450px;
+    }
+}
 @media screen and (min-width: 1200px) {
     .backdrop_modal {
         position: absolute;
