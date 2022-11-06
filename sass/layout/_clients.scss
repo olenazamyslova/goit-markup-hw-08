@@ -1,4 +1,4 @@
-@media screen and (min-width: 280px) {
+
     .clients {
         gap: 30px;
         display: flex;
@@ -38,7 +38,7 @@
             fill: var(--accent-color);
         }
     }
-}
+
 @media screen and (min-width: 768px) {
 
 .clients__item {
