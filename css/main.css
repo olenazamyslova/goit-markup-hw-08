@@ -486,18 +486,19 @@ button {
 
 @media screen and (min-width: 768px) {
   .footer_form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+    max-width: 450px;
     margin-top: 60px;
+  }
+  .footer-form-input {
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer_form {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    width: 570px;
+    max-width: 570px;
   }
   .footer-form-list {
     display: flex;
